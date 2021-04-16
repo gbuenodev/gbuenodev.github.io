@@ -1,4 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, #1D1F20,#46494C,#4C5C68, #337185);
+    color: #DCDCDD;
+    font-family: 'Port Lligat Slab', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #C5C3C6;
+}
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 10px;
+    padding: 0;
+    border-radius: 50px;
+    border-left: solid #337185;
+    border-right: solid #337185;
+    background-color: #1D1F20;
+    color: #C5C3C6;
+    font-size: 18px;
+}
+
+.nav-signature-container{
+    padding-left: 3rem;
+    margin: 10px;
+}
+
+#nav-signature {
+    margin-block: 0;
+    margin-inline: 0;
+    padding: 0;
+    font-family: 'Dancing Script';
+    color: #2E90AA;
+    font-size: 45px;
+    font-weight:bolder;
+}
+
+.nav-items-container {
+    display: flex;
+    align-items: baseline;
+    margin: 10px;
+    padding-right: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-items {
+    padding-inline: 2rem;
+    font-size: 22.5px;
+}
+
