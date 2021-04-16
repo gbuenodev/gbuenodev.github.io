@@ -2,14 +2,19 @@ body, html {
     margin: 0;
     padding: 0;
     background-image: linear-gradient(to bottom right, #1D1F20,#46494C,#4C5C68, #337185);
-    color: #DCDCDD;
+    color: #C5C3C6;
     font-family: 'Port Lligat Slab', sans-serif;
     font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
-    color: #C5C3C6;
+    color: #DCDCDD;
+}
+
+strong {
+    color: #1985A1;
+    font-size: 18px;
 }
 
 a {
@@ -59,3 +64,11 @@ a {
     font-size: 22.5px;
 }
 
+.section-hello-world {
+    
+}
+
+#my-picture {
+    border-radius: 100%;
+    max-width: 200px;
+}
