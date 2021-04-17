@@ -24,21 +24,25 @@ a {
 
 .nav-container {
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     justify-content: space-between;
     align-items: baseline;
-    margin: 10px;
+    margin: 0;
     padding: 0;
-    border-radius: 50px;
-    border-left: solid #337185;
-    border-right: solid #337185;
+    box-shadow: 0px 2px 5px 0px #337185;
+    -webkit-box-shadow: 0px 2px 5px 0px #337185;
+    -moz-box-shadow: 0px 2px 5px 0px #337185;
     background-color: #1D1F20;
     color: #C5C3C6;
     font-size: 18px;
 }
 
 .nav-signature-container{
-    padding-left: 3rem;
-    margin: 10px;
+    margin: 0.5rem;
+    margin-left: 2rem;
 }
 
 #nav-signature {
@@ -47,21 +51,27 @@ a {
     padding: 0;
     font-family: 'Dancing Script';
     color: #2E90AA;
-    font-size: 45px;
-    font-weight:bolder;
+    font-size: 40px;
+    font-weight: medium;
 }
 
 .nav-items-container {
     display: flex;
     align-items: baseline;
-    margin: 10px;
-    padding-right: 3rem;
+    margin: 0px;
+    padding-right: 1rem;
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 .nav-items {
     padding-inline: 2rem;
     font-size: 22.5px;
+    line-height: 45px;
+}
+
+.nav-items:hover {
+    font-weight: bold;
 }
 
 #my-picture {
