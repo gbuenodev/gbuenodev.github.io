@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to bottom right, #1D1F20,#46494C,#4C5C68, #337185);
+    background-image: linear-gradient(#1D1F20,#337185);
     color: #C5C3C6;
     font-family: 'Port Lligat Slab', sans-serif;
     font-size: 16px;
@@ -49,7 +49,7 @@ a {
     margin-block: 0;
     margin-inline: 0;
     padding: 0;
-    font-family: 'Dancing Script';
+    font-family: 'Share Tech';
     color: #2E90AA;
     font-size: 40px;
     font-weight: medium;
@@ -68,10 +68,11 @@ a {
     padding-inline: 2rem;
     font-size: 22.5px;
     line-height: 45px;
+    transition: 0.2s;
 }
 
 .nav-items:hover {
-    font-weight: bold;
+    color: whitesmoke;
 }
 
 #my-picture {
